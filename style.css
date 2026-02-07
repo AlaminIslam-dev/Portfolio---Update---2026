@@ -1,13 +1,6 @@
-{
-  font-family: "Cinzel", serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-}
 body{
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     margin: 0%;
-    margin-top: 0%;
 }
 h1{
     font-size: 72px;
@@ -71,4 +64,51 @@ float: left;
 }
 .buttom-image-half-width p{
     color: white;
+}
+/* Nicher Area  */
+.buttom-area{
+    margin: 100px 0px;
+    background: url("../My-Portfolio-master/My-Portfolio-master/images/dream-bg.png");
+   
+    background-repeat: no-repeat;
+    background-position: right;
+
+}
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.button-area-wrapper{
+    display: flex;
+    gap: 100px;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.button-area-left{
+   max-width: 550px; 
+   width: 100%;
+   flex: 300px;
+}
+.button-area-left img{
+    width: 100%;
+    display: block;
+}
+.button-area-right{
+    max-width: 550px; 
+    width: 100%;
+    flex: 300px;
+}
+.button-area-right h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    color: #ffffff;
+}
+.button-area-right p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
 }
