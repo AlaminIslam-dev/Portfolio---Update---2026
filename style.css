@@ -16,10 +16,36 @@ h1{
     margin-bottom: -15px;
 }
 .Text_Highlight{
-font-size: 72px;
   background: -webkit-linear-gradient(#b3038d, #ffa9ec);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+.buttom-image-half-width h4{
+font-size: 30px;
+background: -webkit-linear-gradient(#ffa200, #fb210d);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.buttom-image-half-width p{
+    text-align: justify;
+    font-size: small
+}
+.align-button {
+    text-align: right;
+    background-color: #000000;
+    background-image: url(../My-Portfolio-master/My-Portfolio-master/images/top-banner_-_Copy-removebg-preview.png);
+    background-repeat: no-repeat;
+    padding-bottom: 50px;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+.profile-link-button{ 
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+    font-weight: 700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 16px;
 }
 .half-width p {
     color: white;
@@ -32,11 +58,6 @@ font-size: 72px;
 .image-half-width {
     padding-left: 65%;
     padding-top: 1%;
-}
-.top-banner{
-background-image: url(../My-Portfolio-master/My-Portfolio-master/images/top-banner_-_Copy-removebg-preview.png);
-background-repeat: no-repeat;
-padding-bottom: 50px;
 }
 .h1-top{
     margin-top: -10%;
