@@ -31,12 +31,23 @@ font-size: 72px;
 }
 .image-half-width {
     padding-left: 65%;
-    padding-top: 1gi%;
+    padding-top: 1%;
 }
 .top-banner{
 background-image: url(../My-Portfolio-master/My-Portfolio-master/images/top-banner_-_Copy-removebg-preview.png);
 background-repeat: no-repeat;
+padding-bottom: 50px;
 }
 .h1-top{
     margin-top: -10%;
+}
+.buttom-image-half-width{
+width: 45%;
+float: left;
+}
+.buttom-image-half-width img{
+    width: 70%;
+}
+.buttom-image-half-width p{
+    color: white;
 }
